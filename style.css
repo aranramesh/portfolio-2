@@ -47,6 +47,9 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+.personal {
+    text-decoration: none;
+}
 section .title{
     position: relative;
     text-align: center;
@@ -237,6 +240,15 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
+.about .about-content .row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-content .row li{
+    list-style:circle ;
+}
+
 .about .about-content .right .text span{
     color: crimson;
 }
@@ -260,7 +272,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+/* services or skills section styling */
 .services, .teams{
     color:#fff;
     background: #111;
@@ -281,7 +293,9 @@ section .title::after{
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+    margin-top: 14px;
+
 }
 .services .serv-content .card:hover{
     background: crimson;
@@ -463,6 +477,7 @@ footer span a:hover{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+        color: #fff;
     }
     .home .home-content .text-2{
         font-size: 70px;
